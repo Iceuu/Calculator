@@ -1,0 +1,60 @@
+.container {
+    background-color: white;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.calculator {
+    width: 500px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 15px;
+    border-radius: 30px;
+    box-shadow: inset 5px 5px 12px white,
+        5px 5px 12px rgba(0, 0, 0, 0.16);
+
+}
+
+input {
+    background-color: white;
+    box-shadow: inset -5px -5px 12px white,
+        5px 5px 12px rgba(0, 0, 0, 0.16);
+    border-style: none;
+    border-radius: 30px;
+    border-color: white;
+    color: grey;
+    font-size: 50px;
+    text-align: end;
+}
+
+button {
+    height: 48px;
+    width: 48px;
+    box-shadow: inset -5px -5px 12px white,
+        5px 5px 12px rgba(255, 229, 143, 0.521);
+    border: none;
+    border-radius: 50%;
+    margin: 8px;
+}
+
+.btn-dark {
+    box-shadow: inset -5px -5px 12px black,
+        5px 5px 12px rgba(0, 0, 0, 0.16);
+}
+
+.btn-success {
+    box-shadow: inset -5px -5px 12px green,
+        5px 5px 12px rgba(0, 0, 0, 0.16);
+}
+
+.btn-warning {
+    box-shadow: inset -5px -5px 12px yellow,
+        5px 5px 12px rgba(0, 0, 0, 0.16);
+}
+
+.btn-danger {
+    box-shadow: inset -5px -5px 12px red,
+        5px 5px 12px rgba(0, 0, 0, 0.16);
+}
